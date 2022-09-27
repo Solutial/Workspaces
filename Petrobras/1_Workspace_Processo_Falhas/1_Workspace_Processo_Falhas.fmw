@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command line to run this workspace:
-#        "C:\Program Files\FME\fme.exe" C:\Users\danil\AppData\Local\Temp\wb_publish_1664290520263_79856/1_Workspace_Processo_Falhas.fmw
+#        "C:\Program Files\FME\fme.exe" C:\Users\danil\AppData\Local\Temp\wb_publish_1664300499162_79856/1_Workspace_Processo_Falhas.fmw
 #          --SourceDataset_OGCKML "C:/Users/danil/Downloads/Falhas.kml"
 #          --FEATURE_TYPES ""
 #          --SourceDataset_OGCKML_3 "C:/Users/danil/Downloads/FAST_LINE_SAVE.kml"
@@ -18,8 +18,8 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="13214.6 2903.9"
-#!   DOC_TOP_LEFT="-2550 -1795.56"
+#!   DOC_EXTENTS="13214.6 2933.71"
+#!   DOC_TOP_LEFT="-2550 -1825.36"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -36,7 +36,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2022.0.1.1 (20220617 - Build 22350 - WIN64)"
-#!   LAST_SAVE_DATE="2022-09-27T11:55:20"
+#!   LAST_SAVE_DATE="2022-09-27T14:41:39"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -55,7 +55,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1030.47 -587.626"
+#!   VIEW_POSITION="-1030.47 -753.695"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="73"
@@ -784,8 +784,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="115"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="1277.611262078678 -1050"
-#!   BOUNDING_RECT="1277.611262078678 -1050 635.06356825772946 71"
+#!   POSITION="1111.5429809650577 -1500"
+#!   BOUNDING_RECT="1111.5429809650577 -1500 635.06356825772946 71"
 #!   ORDER="500000000002511.5"
 #!   COLLAPSED="true"
 #!   KEYWORD="PDF2D_1"
@@ -3317,6 +3317,46 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NDVICalculator"/>
 #!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="129"
+#!   TYPE="Dissolver"
+#!   VERSION="17"
+#!   POSITION="2312.1814524281008 -1754.3623543285037"
+#!   BOUNDING_RECT="2312.1814524281008 -1754.3623543285037 454 71"
+#!   ORDER="500000000002546.5"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22350"
+#! >
+#!     <OUTPUT_FEAT NAME="AREA"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="REMNANTS"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_remnant_type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="ACCUM_INPUT_ATTRS" PARM_VALUE="Use Attributes From One Feature"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CLEANING_TOLERANCE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="First Wins"/>
+#!     <XFORM_PARM PARM_NAME="DEAGGREGATE_INPUT" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="DIS_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OAN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Dissolver"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -9230,13 +9270,13 @@ MACRO $(Configurações_Iniciais_WORKSPACE_NAME)_SUB_DOC_NAME Configurações In
 MACRO $(Configurações_Iniciais_WORKSPACE_NAME)_SUB_DOC_NAME Configurações Iniciais
 DEFAULT_MACRO Configurações_Iniciais_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(Configurações_Iniciais_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(Configurações_Iniciais_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_Input1664290520 Input Splitter"   INPUT FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_Input"   OUTPUT FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV_TYPED,_creation_instance,$($(Configurações_Iniciais_WORKSPACE_NAME)__CREATION_INSTANCE),UTF8, FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_Input1664300499 Input Splitter"   INPUT FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_Input"   OUTPUT FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV_TYPED,_creation_instance,$($(Configurações_Iniciais_WORKSPACE_NAME)__CREATION_INSTANCE),UTF8, FEATURE_TYPE)"
 # -------------------------------------------------------------------------
 Tcl2 proc $(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_doFetch {} {    foreach {name val} {"__pasta_logos {$($(Configurações_Iniciais_WORKSPACE_NAME)__pasta_logos$encode)} __template_pdf {$($(Configurações_Iniciais_WORKSPACE_NAME)__template_pdf$encode)}"} {         if { [string match {*<at>*} $val] == 1 } {             set val [FME_Execute EvaluateExpression {STRING} $val {$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher}];         } elseif {[string match {*FME_CONDITIONAL*} $val] == 1} {             set val [FME_Execute EvaluateExpression {STRING} $val {$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher}];         } else {             set val [FME_DecodeTextOrAttr $val];         };       FME_SetAttribute [FME_DecodeText $name] $val    } }
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { $(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher }    INPUT  FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_Input"    OUTPUT { FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_OUTPUT"         @Tcl2($(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_doFetch)          }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { $(Configurações_Iniciais_WORKSPACE_NAME)_AttributeManager_5 }    INPUT  FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_ParameterFetcher_OUTPUT"    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    MISSING_INPUT_ATTR_HANDLING RENAME_SET_VALUE REMOVE    ATTR_ACTION { "" "L01" "logo" "SET_TO" }      ATTR_ACTION { "" "L02" "FA:<space>4499" "SET_TO" }      ATTR_ACTION { "" "L03" "Falha<lf>Geral:<space>9.02<space>%" "SET_TO" }      ATTR_ACTION { "" "L04" "M<u00e9>dia<lf>de<lf>Falha:<space>1<comma>42<space>metros" "SET_TO" }      ATTR_ACTION { "" "D01" "Raster" "SET_TO" }      ATTR_ACTION { "" "L06" "Usina" "SET_TO" }      ATTR_ACTION { "" "L05" "Grafico" "SET_TO" }      ATTR_ACTION { "" "Cor" "Cor" "SET_TO" }      ATTR_ACTION { "" "Perc.<space>Faixa<openparen>%<closeparen>" "Perc.<space>Faixa<openparen>%<closeparen>" "SET_TO" }      ATTR_ACTION { "" "Soma<space>Comp<space>Falha<space><openparen>m<closeparen>" "Soma<space>Comp<space>Falha<space><openparen>m<closeparen>" "SET_TO" }      ATTR_ACTION { "" "T01" "0<space>-<space>5%" "SET_TO" }      ATTR_ACTION { "" "T02" "5<space>-<space>10%" "SET_TO" }      ATTR_ACTION { "" "T03" "10<space>-<space>15%" "SET_TO" }      ATTR_ACTION { "" "T04" "15<space>-<space>20%" "SET_TO" }      ATTR_ACTION { "" "T05" "20<space>-<space>25%" "SET_TO" }      ATTR_ACTION { "" "T06" "<gt>25%" "SET_TO" }      ATTR_ACTION { "" "Total" "Total" "SET_TO" }      ATTR_ACTION { "" "T07" "714.3" "SET_TO" }      ATTR_ACTION { "" "T08" "2045.34" "SET_TO" }      ATTR_ACTION { "" "T09" "2311.34" "SET_TO" }      ATTR_ACTION { "" "T10" "1141.12" "SET_TO" }      ATTR_ACTION { "" "T11" "546.37" "SET_TO" }      ATTR_ACTION { "" "T12" "1841.23" "SET_TO" }      ATTR_ACTION { "" "Perc.<space>Falha<openparen>%<closeparen>" "Perc.<space>Falha<openparen>%<closeparen>" "SET_TO" }      ATTR_ACTION { "" "T13" "8599<comma>17" "SET_TO" }      ATTR_ACTION { "" "T14" "8<comma>3%" "SET_TO" }      ATTR_ACTION { "" "T15" "24%" "SET_TO" }      ATTR_ACTION { "" "T16" "27%" "SET_TO" }      ATTR_ACTION { "" "T17" "14%" "SET_TO" }      ATTR_ACTION { "" "T18" "6<comma>4%" "SET_TO" }      ATTR_ACTION { "" "T19" "22%" "SET_TO" }    OUTPUT { OUTPUT FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_AttributeManager_5_OUTPUT"        }
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(Configurações_Iniciais_WORKSPACE_NAME)_AttributeManager_5_Output1664290520 Output Collector"   INPUT FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_AttributeManager_5_OUTPUT"   OUTPUT FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_AttributeManager_5_Output"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(Configurações_Iniciais_WORKSPACE_NAME)_AttributeManager_5_Output1664300499 Output Collector"   INPUT FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_AttributeManager_5_OUTPUT"   OUTPUT FEATURE_TYPE "$(Configurações_Iniciais_WORKSPACE_NAME)_AttributeManager_5_Output"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(Configurações_Iniciais_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Configurações_Iniciais AttributeManager_5_Output Output Renamer/Nuker"   INPUT FEATURE_TYPE Configurações_Iniciais_AttributeManager_5_Output   OUTPUT FEATURE_TYPE Configurações_Iniciais_AttributeManager_5_Output
 # -------------------------------------------------------------------------
@@ -9254,7 +9294,7 @@ MACRO $(PDFGenerator_WORKSPACE_NAME)_SUB_DOC_NAME PDFGenerator
 MACRO $(PDFGenerator_WORKSPACE_NAME)_SUB_DOC_NAME PDFGenerator
 DEFAULT_MACRO PDFGenerator_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(PDFGenerator_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(PDFGenerator_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PDFGenerator_WORKSPACE_NAME)_Atributos1664290520 Input Splitter"   INPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Atributos"   OUTPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Atributos"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PDFGenerator_WORKSPACE_NAME)_Atributos1664300499 Input Splitter"   INPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Atributos"   OUTPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Atributos"
 # -------------------------------------------------------------------------
 Tcl2 proc $(PDFGenerator_WORKSPACE_NAME)_ParameterFetcher_doFetch {} {    foreach {name val} {"_in_dir_template {$($(PDFGenerator_WORKSPACE_NAME)_in_dir_template)} _in_arquivo {$($(PDFGenerator_WORKSPACE_NAME)_in_modelo_arquivo)} _in_folder_logo {$($(PDFGenerator_WORKSPACE_NAME)_in_folder_logo$encode)}"} {         if { [string match {*<at>*} $val] == 1 } {             set val [FME_Execute EvaluateExpression {STRING} $val {$(PDFGenerator_WORKSPACE_NAME)_ParameterFetcher}];         } elseif {[string match {*FME_CONDITIONAL*} $val] == 1} {             set val [FME_Execute EvaluateExpression {STRING} $val {$(PDFGenerator_WORKSPACE_NAME)_ParameterFetcher}];         } else {             set val [FME_DecodeTextOrAttr $val];         };       FME_SetAttribute [FME_DecodeText $name] $val    } }
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { $(PDFGenerator_WORKSPACE_NAME)_ParameterFetcher }    INPUT  FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Atributos"    OUTPUT { FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_ParameterFetcher_OUTPUT"         @Tcl2($(PDFGenerator_WORKSPACE_NAME)_ParameterFetcher_doFetch)          }
@@ -9287,7 +9327,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { $(PDFGenerator_WORKSPACE_NAME)_
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { $(PDFGenerator_WORKSPACE_NAME)_Junction_4 }    INPUT  FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_AttributeFilter_MACRO_DESENHO"    INPUT  FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_AttributeFilter_MACRO_LEGENDA"    OUTPUT { FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Junction_4_Output"         }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(PDFGenerator_WORKSPACE_NAME)_AttributeTrimmer_d24b5e80_bf31_481d_b09d_16be3f92c98a2} ]
+INCLUDE [ FME_CleanseFMEUUID {$(PDFGenerator_WORKSPACE_NAME)_AttributeTrimmer_d24b5e80_bf31_481d_b09d_16be3f92c98a4} ]
 Tcl2 proc $(FME_UUID_SAFE)_trimmer { trimChars} {    set attrs [split {fme_text_string} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trim $attrVal];         } else {             set result [string trim $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trim} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trim} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { $(PDFGenerator_WORKSPACE_NAME)_AttributeTrimmer }    INPUT  FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Junction_4_Output"    OUTPUT { FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_AttributeTrimmer_OUTPUT"      @Tcl2("$(FME_UUID_SAFE)_trimmer {} ")       }
 # -------------------------------------------------------------------------
@@ -9331,7 +9371,7 @@ FACTORY_DEF {*} FeatureJoinerFactory    FACTORY_NAME { $(PDFGenerator_WORKSPACE_
 FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(PDFGenerator_WORKSPACE_NAME)_Tester_2 }    INPUT  FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_FeatureJoiner_JOINED"    TEST { "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>fme_text_string<closeparen>,$(PDFGenerator_WORKSPACE_NAME)_Tester_2)" = "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_attr_name<closeparen>,$(PDFGenerator_WORKSPACE_NAME)_Tester_2)" ENCODED }    BOOLEAN_OPERATOR { OR }    COMPOSITE_TEST_EXPR { "<Unused>" }    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { PASSED FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Tester_2_PASSED"         }    OUTPUT { FAILED FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Tester_2_FAILED"         }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(PDFGenerator_WORKSPACE_NAME)_NullAttributeMapper_8b8d8191_20d8_4d7c_8113_be1614b6fcdd2} ]
+INCLUDE [ FME_CleanseFMEUUID {$(PDFGenerator_WORKSPACE_NAME)_NullAttributeMapper_8b8d8191_20d8_4d7c_8113_be1614b6fcdd4} ]
 Tcl2 proc $(FME_UUID_SAFE)_null_replacer { otherValue newValue regExp } {    set attrs [split {<Unused>} { }];    set decode true;    if { {ALL} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} }          {             set results [FME_GetRegex $decodedRegExp $attrVal];             if {[llength [lindex $results 0]] > 0}             {                set act {SETVALUE};             }          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { $(PDFGenerator_WORKSPACE_NAME)_NullAttributeMapper }    INPUT  FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Tester_2_PASSED"    OUTPUT { FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_NullAttributeMapper_OUTPUT"         @Tcl2("$(FME_UUID_SAFE)_null_replacer {} {<space>} {}")       }
 # -------------------------------------------------------------------------
@@ -9458,7 +9498,7 @@ INCLUDE [    puts {DEFAULT_MACRO FeatureReaderDataset_$(PDFGenerator_WORKSPACE_N
 FACTORY_DEF {*} QueryFactory    FACTORY_NAME { $(PDFGenerator_WORKSPACE_NAME)_FeatureReader }    INPUT  FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_AttributeCreator_OUTPUT"    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  { $($(PDFGenerator_WORKSPACE_NAME)_FeatureReader_COMBINE_ATTRS) }    IGNORE_NULLS        { No }    QUERYFCT_ATTRIBUTE_PREFIX { <Unused> }    COMBINE_GEOMETRY    { RESULT_ONLY }    ENABLE_CACHE        { NO }    QUERYFCT_TABLE_SEPARATOR { SPACE }    READER_TYPE         { PNGRASTER  }    READER_DATASET      { "$(FeatureReaderDataset_$(PDFGenerator_WORKSPACE_NAME)_FeatureReader)" }    QUERYFCT_IDS        { "" }    READER_DIRECTIVES   { METAFILE,PNGRASTER }    QUERYFCT_OUTPUT     { "BASED_ON_CONNECTIONS" }    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS { $($(PDFGenerator_WORKSPACE_NAME)_FeatureReader_OUTPUT_PORTS_ENCODED) }    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     { $($(PDFGenerator_WORKSPACE_NAME)_FeatureReader_DIRECTIVES) }    TREAT_READER_PARAM_AMPERSANDS_AS_LITERALS YES    OUTPUT { RESULT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_FeatureReader_<OTHER>"           }    OUTPUT { READER_ERROR FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_FeatureReader_<REJECTED>"           }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(PDFGenerator_WORKSPACE_NAME)_Logger_3b4bc7ef_ced7_4530_9c0a_7c3e4566c4272} ]
+INCLUDE [ FME_CleanseFMEUUID {$(PDFGenerator_WORKSPACE_NAME)_Logger_3b4bc7ef_ced7_4530_9c0a_7c3e4566c4274} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -9531,8 +9571,8 @@ FACTORY_DEF {*} TeeFactory    FACTORY_NAME { $(PDFGenerator_WORKSPACE_NAME)_Rast
 FACTORY_DEF {*} TestFactory     FACTORY_NAME { $(PDFGenerator_WORKSPACE_NAME)_RasterInterpretationCoercer_Rejector }     INPUT FEATURE_TYPE ___TOREJECTOR___     TEST @Value(fme_rejection_code) != ""     OUTPUT { FAILED FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_RasterInterpretationCoercer_OUTPUT"        @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)         }
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PDFGenerator_WORKSPACE_NAME)_valores_em_branco (Disabled) Nuker"   INPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Tester_2_FAILED"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PDFGenerator_WORKSPACE_NAME)_Legendas1664290520 Output Collector"   INPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_AttributeManager_15_OUTPUT"   INPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_RasterInterpretationCoercer_OUTPUT"   OUTPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Legendas"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PDFGenerator_WORKSPACE_NAME)_Croqui1664290520 Output Collector"   INPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_AttributeRemover_OUTPUT"   OUTPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Croqui"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PDFGenerator_WORKSPACE_NAME)_Legendas1664300499 Output Collector"   INPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_AttributeManager_15_OUTPUT"   INPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_RasterInterpretationCoercer_OUTPUT"   OUTPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Legendas"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(PDFGenerator_WORKSPACE_NAME)_Croqui1664300499 Output Collector"   INPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_AttributeRemover_OUTPUT"   OUTPUT FEATURE_TYPE "$(PDFGenerator_WORKSPACE_NAME)_Croqui"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(PDFGenerator_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PDFGenerator Croqui Output Renamer/Nuker"   INPUT FEATURE_TYPE PDFGenerator_Croqui   OUTPUT FEATURE_TYPE PDFGenerator_Croqui
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PDFGenerator Legendas Output Renamer/Nuker"   INPUT FEATURE_TYPE PDFGenerator_Legendas   OUTPUT FEATURE_TYPE PDFGenerator_Legendas
